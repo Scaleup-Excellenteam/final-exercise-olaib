@@ -1,6 +1,7 @@
 import asyncio
 import logging
 import os
+from asyncio import sleep
 from functools import wraps
 from open_ai_pressentation_explainer.pptx_processor import PptxProcessor
 
@@ -16,6 +17,8 @@ PATH = 'sources/asyncio-intro.pptx'
 ERROR_OCCURRED_MESSAGE = "An error occurred while processing the presentation:"
 LOG_FILE_PATH = 'info.log'
 RATE_LIMIT_SECONDS = 1
+WAIT_TIME = 30
+RATE_LIMIT_MSG = f"Rate limit exceeded. Please wait a {WAIT_TIME} seconds and try again."
 
 load_dotenv()
 OPEN_AI_MODEL = os.environ.get('OPEN_AI_MODEL')
@@ -24,16 +27,21 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
                     filename=LOG_FILE_PATH)
 
 
-def handle_errors(func):
+def handle_errors(func: callable) -> callable:
     """Decorator that handles exceptions in a function and logs them.
     :param func: the function to decorate.
     :return: a decorator that handles exceptions in a function and logs them.
     """
 
     @wraps(func)
-    async def wrapper(*args, **kwargs):
+    async def wrapper(*args: list, **kwargs: dict) -> str:
         try:
             return await func(*args, **kwargs)
+        except openai.error.RateLimitError:
+            logging.error(RATE_LIMIT_MSG)
+            print(RATE_LIMIT_MSG)
+            await asyncio.sleep(WAIT_TIME)
+            return RATE_LIMIT_MSG
         except Exception as e:
             slide_number = args[0]
             logging.error(f"{ERROR_OCCURRED_MESSAGE} {slide_number}: {e}")
@@ -78,7 +86,7 @@ async def generate_slide_explanation_from_openai(slide_number: int, prompt: str)
     return explanation
 
 
-def extract_explanations(slides_explanation, res):
+def extract_explanations(slides_explanation: list, res: list) -> None:
     for slide_number, api_slide_explanation in enumerate(res, start=1):
         if api_slide_explanation == "":
             logging.info(f"Skipping slide {slide_number} because it's empty")
@@ -98,7 +106,7 @@ async def get_pptx_slides_explanations(pptx_path: str, slides: list) -> list:
     slides_explanation = []
     tasks = []
     for slide_number, slide_text in enumerate(slides, start=1):
-        logging.info(f"Generating explanation for slide {slide_number} with context:\n{slide_text}")
+        logging.info(f"Generating explanation for slide {slide_number}")
         if slide_text == "":
             logging.info(f"Skipping slide {slide_number} because it's empty")
             continue
@@ -111,7 +119,7 @@ async def get_pptx_slides_explanations(pptx_path: str, slides: list) -> list:
     return slides_explanation
 
 
-async def slides_explanations_generator(pptx_path: str, api_key) -> None:
+async def slides_explanations_generator(pptx_path: str, api_key: str) -> None:
     """Generates explanations for all slides in a presentation and saves them to a json file.
     :param pptx_path: path to the presentation. must be a .pptx file.
     :param api_key: OpenAI API key.
@@ -137,7 +145,8 @@ def print_explanations(slides_explanations: list) -> None:
 
 
 def main():
-    asyncio.run(slides_explanations_generator(PATH, OPEN_AI_API_KEY))
+    # print("api key: " + OPEN_AI_API_KEY)
+    asyncio.run(slides_explanations_generator(pptx_path=PATH, api_key=OPEN_AI_API_KEY))
 
 
 if __name__ == "__main__":
