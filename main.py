@@ -2,6 +2,7 @@ import asyncio
 import logging
 import os
 from asyncio import sleep
+from datetime import datetime
 from functools import wraps
 from open_ai_pressentation_explainer.pptx_processor import PptxProcessor
 
@@ -10,14 +11,13 @@ from flask.cli import load_dotenv
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     filename='info.log')
-MAX_TOKENS = 4000
 ROLE = "user"
 GENERATION_TIMEOUT = 10  # seconds to wait for a response from OpenAI
 PATH = 'sources/asyncio-intro.pptx'
 ERROR_OCCURRED_MESSAGE = "An error occurred while processing the presentation:"
 LOG_FILE_PATH = 'info.log'
 RATE_LIMIT_SECONDS = 1
-WAIT_TIME = 30
+WAIT_TIME = 60
 RATE_LIMIT_MSG = f"Rate limit exceeded. Please wait a {WAIT_TIME} seconds and try again."
 
 load_dotenv()
@@ -75,18 +75,18 @@ async def generate_slide_explanation_from_openai(slide_number: int, prompt: str)
     :return: a dictionary containing the slide number and its explanation.
     output example: {"slide_number": 1, "explanation": "This is a slide about asyncio."}
     """
-    logging.info(f"context: {prompt}")
-    response = await openai.ChatCompletion.create(
+    logging.info(f"send prompt to openai: {prompt}")
+
+    response = openai.ChatCompletion.create(
         model=OPEN_AI_MODEL,
         messages=[{"role": ROLE, "content": prompt}],
-        max_tokens=MAX_TOKENS,
     )
     explanation = response.choices[0].message.content
-    logging.info(f"Got response from OpenAI for slide {slide_number}: {explanation}")
+    logging.info(f"Got response from OpenAI: {explanation}")
     return explanation
 
 
-def extract_explanations(slides_explanation: list, res: list) -> None:
+def extract_explanations(slides_explanation: list, res: tuple) -> None:
     for slide_number, api_slide_explanation in enumerate(res, start=1):
         if api_slide_explanation == "":
             logging.info(f"Skipping slide {slide_number} because it's empty")
@@ -113,6 +113,7 @@ async def get_pptx_slides_explanations(pptx_path: str, slides: list) -> list:
         task = asyncio.create_task(generate_slide_explanation_from_openai(slide_number, slide_text))
         tasks.append(task)
         await asyncio.sleep(RATE_LIMIT_SECONDS)
+
     res = await asyncio.gather(*tasks)  # wait for all tasks to finish
     extract_explanations(slides_explanation, res)
 
@@ -145,7 +146,6 @@ def print_explanations(slides_explanations: list) -> None:
 
 
 def main():
-    # print("api key: " + OPEN_AI_API_KEY)
     asyncio.run(slides_explanations_generator(pptx_path=PATH, api_key=OPEN_AI_API_KEY))
 
 
