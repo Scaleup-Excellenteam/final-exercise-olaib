@@ -1,0 +1,964 @@
+2023-06-14 18:00:10,572 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:00:10,572 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:00:10,572 - config - INFO - uid generated: 9514513b-2b0c-4b1d-88c9-e1c9b418bf9b + asyncio-intro
+2023-06-14 18:00:10,572 - config - INFO - uid generated: 9514513b-2b0c-4b1d-88c9-e1c9b418bf9b + asyncio-intro
+2023-06-14 18:00:10,573 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 64, in upload_file
+    filename = get_generated_filename(file.filename, uid)
+TypeError: 'NoneType' object is not callable
+2023-06-14 18:00:10,573 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 64, in upload_file
+    filename = get_generated_filename(file.filename, uid)
+TypeError: 'NoneType' object is not callable
+2023-06-14 18:00:10,576 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:00:10] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:00:10,576 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:00:10] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:01:31,565 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:01:31,565 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:01:31,566 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:01:31,566 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:03:43,420 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:03:43,420 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:03:43,421 - config - INFO - uid generated: 74910108-4ef7-48de-86fb-f8c4fbf59352 + asyncio-intro
+2023-06-14 18:03:43,421 - config - INFO - uid generated: 74910108-4ef7-48de-86fb-f8c4fbf59352 + asyncio-intro
+2023-06-14 18:03:43,422 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:03:43] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:03:43,422 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:03:43] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:04:19,004 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:04:19,004 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:04:19,004 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:04:19,004 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:04:22,209 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:04:22,209 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:04:22,209 - config - INFO - uid generated: 9cddf5ed-7c25-491c-ac8b-fc0f7dd4f15c + asyncio-intro
+2023-06-14 18:04:22,209 - config - INFO - uid generated: 9cddf5ed-7c25-491c-ac8b-fc0f7dd4f15c + asyncio-intro
+2023-06-14 18:04:22,210 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 64, in upload_file
+    filename = get_generated_filename(file.filename, uid)
+TypeError: 'NoneType' object is not callable
+2023-06-14 18:04:22,210 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 64, in upload_file
+    filename = get_generated_filename(file.filename, uid)
+TypeError: 'NoneType' object is not callable
+2023-06-14 18:04:22,215 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:04:22] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:04:22,215 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:04:22] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:05:26,413 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:05:26,413 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:05:26,414 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:05:26,414 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:05:29,988 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:05:29,988 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:05:29,989 - config - INFO - uid generated: f89e4200-7650-4865-ad20-4fa9dcff68a1 + asyncio-intro
+2023-06-14 18:05:29,989 - config - INFO - uid generated: f89e4200-7650-4865-ad20-4fa9dcff68a1 + asyncio-intro
+2023-06-14 18:05:29,989 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:05:29,989 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:05:29,990 - config - INFO - uploaded filename: f89e4200-7650-4865-ad20-4fa9dcff68a1-asyncio-intro-20230614180529
+2023-06-14 18:05:29,990 - config - INFO - uploaded filename: f89e4200-7650-4865-ad20-4fa9dcff68a1-asyncio-intro-20230614180529
+2023-06-14 18:05:29,991 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:05:29] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:05:29,991 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:05:29] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:05:45,539 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:05:45,539 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:05:45,540 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:05:45,540 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:05:48,613 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:05:48,613 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:05:48,613 - config - INFO - uid generated: 48bd3ed0-8f0c-44a4-94e8-fa3c266662d8 + asyncio-intro
+2023-06-14 18:05:48,613 - config - INFO - uid generated: 48bd3ed0-8f0c-44a4-94e8-fa3c266662d8 + asyncio-intro
+2023-06-14 18:05:48,614 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:05:48,614 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:05:48,614 - config - INFO - uploaded filename: 48bd3ed0-8f0c-44a4-94e8-fa3c266662d8-asyncio-intro-20230614180548
+2023-06-14 18:05:48,614 - config - INFO - uploaded filename: 48bd3ed0-8f0c-44a4-94e8-fa3c266662d8-asyncio-intro-20230614180548
+2023-06-14 18:05:48,614 - config - INFO - parsing <48bd3ed0-8f0c-44a4-94e8-fa3c266662d8-asyncio-intro-20230614180548> pptx file to json
+2023-06-14 18:05:48,614 - config - INFO - parsing <48bd3ed0-8f0c-44a4-94e8-fa3c266662d8-asyncio-intro-20230614180548> pptx file to json
+2023-06-14 18:05:48,615 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 68, in upload_file
+    parse_pptx_to_json(file, filename)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 37, in parse_pptx_to_json
+    pptx_processor = PptxProcessor(file=uploaded_file_path, file_name=filename)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\models\pptx_parser.py", line 77, in __init__
+    self.slides = self.extract_text_from_presentation()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\models\pptx_parser.py", line 96, in extract_text_from_presentation
+    presentation = Presentation(self.file)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\api.py", line 28, in Presentation
+    presentation_part = Package.open(pptx).main_document_part
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 73, in open
+    return cls(pkg_file)._load()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 157, in _load
+    pkg_xml_rels, parts = _PackageLoader.load(self._pkg_file, self)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 186, in load
+    return cls(pkg_file, package)._load()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 190, in _load
+    parts, xml_rels = self._parts, self._xml_rels
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\util.py", line 215, in __get__
+    value = self._fget(obj)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 219, in _parts
+    content_types = self._content_types
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\util.py", line 215, in __get__
+    value = self._fget(obj)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 203, in _content_types
+    return _ContentTypeMap.from_xml(self._package_reader[CONTENT_TYPES_URI])
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\serialized.py", line 35, in __getitem__
+    return self._blob_reader[pack_uri]
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\util.py", line 215, in __get__
+    value = self._fget(obj)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\serialized.py", line 49, in _blob_reader
+    return _PhysPkgReader.factory(self._pkg_file)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\serialized.py", line 135, in factory
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+pptx.exc.PackageNotFoundError: Package not found at 'uploads\48bd3ed0-8f0c-44a4-94e8-fa3c266662d8-asyncio-intro-20230614180548'
+2023-06-14 18:05:48,615 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 68, in upload_file
+    parse_pptx_to_json(file, filename)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 37, in parse_pptx_to_json
+    pptx_processor = PptxProcessor(file=uploaded_file_path, file_name=filename)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\models\pptx_parser.py", line 77, in __init__
+    self.slides = self.extract_text_from_presentation()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\models\pptx_parser.py", line 96, in extract_text_from_presentation
+    presentation = Presentation(self.file)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\api.py", line 28, in Presentation
+    presentation_part = Package.open(pptx).main_document_part
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 73, in open
+    return cls(pkg_file)._load()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 157, in _load
+    pkg_xml_rels, parts = _PackageLoader.load(self._pkg_file, self)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 186, in load
+    return cls(pkg_file, package)._load()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 190, in _load
+    parts, xml_rels = self._parts, self._xml_rels
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\util.py", line 215, in __get__
+    value = self._fget(obj)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 219, in _parts
+    content_types = self._content_types
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\util.py", line 215, in __get__
+    value = self._fget(obj)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\package.py", line 203, in _content_types
+    return _ContentTypeMap.from_xml(self._package_reader[CONTENT_TYPES_URI])
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\serialized.py", line 35, in __getitem__
+    return self._blob_reader[pack_uri]
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\util.py", line 215, in __get__
+    value = self._fget(obj)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\serialized.py", line 49, in _blob_reader
+    return _PhysPkgReader.factory(self._pkg_file)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\pptx\opc\serialized.py", line 135, in factory
+    raise PackageNotFoundError("Package not found at '%s'" % pkg_file)
+pptx.exc.PackageNotFoundError: Package not found at 'uploads\48bd3ed0-8f0c-44a4-94e8-fa3c266662d8-asyncio-intro-20230614180548'
+2023-06-14 18:05:48,623 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:05:48] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:05:48,623 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:05:48] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:06:03,614 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:06:03,614 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:06:03,615 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:06:03,615 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:06:04,280 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:06:04,280 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:06:07,511 - config - INFO - uid generated: fd62b477-5030-4527-ad3a-7a40edd06db7 + asyncio-intro
+2023-06-14 18:06:07,511 - config - INFO - uid generated: fd62b477-5030-4527-ad3a-7a40edd06db7 + asyncio-intro
+2023-06-14 18:06:15,198 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:06:15,198 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:06:16,858 - config - INFO - uploaded filename: fd62b477-5030-4527-ad3a-7a40edd06db7-asyncio-intro-20230614180615
+2023-06-14 18:06:16,858 - config - INFO - uploaded filename: fd62b477-5030-4527-ad3a-7a40edd06db7-asyncio-intro-20230614180615
+2023-06-14 18:06:37,517 - config - INFO - parsing <fd62b477-5030-4527-ad3a-7a40edd06db7-asyncio-intro-20230614180615> pptx file to json
+2023-06-14 18:06:37,517 - config - INFO - parsing <fd62b477-5030-4527-ad3a-7a40edd06db7-asyncio-intro-20230614180615> pptx file to json
+2023-06-14 18:09:27,187 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:09:27,187 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:09:27,188 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:09:27,188 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:09:48,589 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:09:48,589 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:09:48,590 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:09:48,590 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:09:49,736 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:09:49,736 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:09:54,713 - config - INFO - uid generated: feff203c-50b7-496a-bd93-f00537a912b0 + asyncio-intro
+2023-06-14 18:09:54,713 - config - INFO - uid generated: feff203c-50b7-496a-bd93-f00537a912b0 + asyncio-intro
+2023-06-14 18:09:54,714 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:09:54,714 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:09:54,715 - config - INFO - uploaded filename: feff203c-50b7-496a-bd93-f00537a912b0-asyncio-intro-20230614180954
+2023-06-14 18:09:54,715 - config - INFO - uploaded filename: feff203c-50b7-496a-bd93-f00537a912b0-asyncio-intro-20230614180954
+2023-06-14 18:09:54,718 - config - INFO - parsing <feff203c-50b7-496a-bd93-f00537a912b0-asyncio-intro-20230614180954> pptx file to json
+2023-06-14 18:09:54,718 - config - INFO - parsing <feff203c-50b7-496a-bd93-f00537a912b0-asyncio-intro-20230614180954> pptx file to json
+2023-06-14 18:11:36,348 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:11:36,348 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:12:17,439 - config - INFO - File feff203c-50b7-496a-bd93-f00537a912b0-asyncio-intro-20230614180954 uploaded successfully
+2023-06-14 18:12:17,439 - config - INFO - File feff203c-50b7-496a-bd93-f00537a912b0-asyncio-intro-20230614180954 uploaded successfully
+2023-06-14 18:12:41,820 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:12:41,820 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:12:41,821 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:12:41,821 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:12:42,869 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:12:42,869 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:12:42,870 - config - INFO - uid generated: 59aa4db1-152f-4135-a838-4ba062da1d88 + asyncio-intro
+2023-06-14 18:12:42,870 - config - INFO - uid generated: 59aa4db1-152f-4135-a838-4ba062da1d88 + asyncio-intro
+2023-06-14 18:12:42,871 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:12:42,871 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:12:42,872 - config - INFO - uploaded filename: 59aa4db1-152f-4135-a838-4ba062da1d88-asyncio-intro-20230614181242
+2023-06-14 18:12:42,872 - config - INFO - uploaded filename: 59aa4db1-152f-4135-a838-4ba062da1d88-asyncio-intro-20230614181242
+2023-06-14 18:12:42,875 - config - INFO - parsing <59aa4db1-152f-4135-a838-4ba062da1d88-asyncio-intro-20230614181242> pptx file to json
+2023-06-14 18:12:42,875 - config - INFO - parsing <59aa4db1-152f-4135-a838-4ba062da1d88-asyncio-intro-20230614181242> pptx file to json
+2023-06-14 18:12:50,251 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:12:50,251 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:13:17,659 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:13:17,659 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:13:17,660 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:13:17,660 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:13:21,727 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:13:21,727 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:13:21,728 - config - INFO - uid generated: 70e7c931-b946-43e5-80bb-c12eeb17543b + asyncio-intro
+2023-06-14 18:13:21,728 - config - INFO - uid generated: 70e7c931-b946-43e5-80bb-c12eeb17543b + asyncio-intro
+2023-06-14 18:13:21,728 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:13:21,728 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:13:21,728 - config - INFO - uploaded filename: 70e7c931-b946-43e5-80bb-c12eeb17543b-asyncio-intro-20230614181321
+2023-06-14 18:13:21,728 - config - INFO - uploaded filename: 70e7c931-b946-43e5-80bb-c12eeb17543b-asyncio-intro-20230614181321
+2023-06-14 18:13:21,728 - config - INFO - parsing <70e7c931-b946-43e5-80bb-c12eeb17543b-asyncio-intro-20230614181321> pptx file to json
+2023-06-14 18:13:21,728 - config - INFO - parsing <70e7c931-b946-43e5-80bb-c12eeb17543b-asyncio-intro-20230614181321> pptx file to json
+2023-06-14 18:13:21,764 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:13:21,764 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:13:21,772 - config - INFO - File 70e7c931-b946-43e5-80bb-c12eeb17543b-asyncio-intro-20230614181321 uploaded successfully
+2023-06-14 18:13:21,772 - config - INFO - File 70e7c931-b946-43e5-80bb-c12eeb17543b-asyncio-intro-20230614181321 uploaded successfully
+2023-06-14 18:13:21,773 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:13:21] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:13:21,773 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:13:21] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:14:25,499 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:14:25,499 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:14:25,500 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:14:25,500 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:14:32,867 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:14:32,867 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:14:32,868 - config - INFO - uid generated: 66fa8be2-47f6-4e81-a6ad-6635b42e0176 + asyncio-intro
+2023-06-14 18:14:32,868 - config - INFO - uid generated: 66fa8be2-47f6-4e81-a6ad-6635b42e0176 + asyncio-intro
+2023-06-14 18:14:32,868 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:14:32,868 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:14:32,868 - config - INFO - uploaded filename: 66fa8be2-47f6-4e81-a6ad-6635b42e0176-asyncio-intro-20230614181432
+2023-06-14 18:14:32,868 - config - INFO - uploaded filename: 66fa8be2-47f6-4e81-a6ad-6635b42e0176-asyncio-intro-20230614181432
+2023-06-14 18:14:32,869 - config - INFO - parsing <66fa8be2-47f6-4e81-a6ad-6635b42e0176-asyncio-intro-20230614181432> pptx file to json
+2023-06-14 18:14:32,869 - config - INFO - parsing <66fa8be2-47f6-4e81-a6ad-6635b42e0176-asyncio-intro-20230614181432> pptx file to json
+2023-06-14 18:14:32,915 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:14:32,915 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:14:32,917 - config - INFO - File 66fa8be2-47f6-4e81-a6ad-6635b42e0176-asyncio-intro-20230614181432 uploaded successfully
+2023-06-14 18:14:32,917 - config - INFO - File 66fa8be2-47f6-4e81-a6ad-6635b42e0176-asyncio-intro-20230614181432 uploaded successfully
+2023-06-14 18:14:32,918 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:14:32] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:14:32,918 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:14:32] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:20:21,955 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:20:21,955 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:20:21,955 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:20:21,955 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:22:37,139 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:22:37,139 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:22:37,140 - config - INFO - uid generated: 36dde1c6-349a-4e17-be48-87bc76ff42b5 + asyncio-intro
+2023-06-14 18:22:37,140 - config - INFO - uid generated: 36dde1c6-349a-4e17-be48-87bc76ff42b5 + asyncio-intro
+2023-06-14 18:22:37,140 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:22:37,140 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:22:37,141 - config - INFO - uploaded filename: 36dde1c6-349a-4e17-be48-87bc76ff42b5-asyncio-intro-20230614182237
+2023-06-14 18:22:37,141 - config - INFO - uploaded filename: 36dde1c6-349a-4e17-be48-87bc76ff42b5-asyncio-intro-20230614182237
+2023-06-14 18:22:37,141 - config - INFO - parsing <36dde1c6-349a-4e17-be48-87bc76ff42b5-asyncio-intro-20230614182237> pptx file to json
+2023-06-14 18:22:37,141 - config - INFO - parsing <36dde1c6-349a-4e17-be48-87bc76ff42b5-asyncio-intro-20230614182237> pptx file to json
+2023-06-14 18:22:37,207 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:22:37,207 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:22:37,210 - config - INFO - File 36dde1c6-349a-4e17-be48-87bc76ff42b5-asyncio-intro-20230614182237 uploaded successfully
+2023-06-14 18:22:37,210 - config - INFO - File 36dde1c6-349a-4e17-be48-87bc76ff42b5-asyncio-intro-20230614182237 uploaded successfully
+2023-06-14 18:22:37,214 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:22:37] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:22:37,214 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:22:37] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:22:39,250 - config - ERROR - Exception on /status/36dde1c6-349a-4e17-be48-87bc76ff42b5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:22:39,250 - config - ERROR - Exception on /status/36dde1c6-349a-4e17-be48-87bc76ff42b5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:22:39,262 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:22:39] "[35m[1mGET /status/36dde1c6-349a-4e17-be48-87bc76ff42b5 HTTP/1.1[0m" 500 -
+2023-06-14 18:22:39,262 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:22:39] "[35m[1mGET /status/36dde1c6-349a-4e17-be48-87bc76ff42b5 HTTP/1.1[0m" 500 -
+2023-06-14 18:23:11,051 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:23:11,051 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:23:11,051 - config - INFO - uid generated: 8403bb3b-4fc7-4642-8bfc-10e86a2cd816 + asyncio-intro
+2023-06-14 18:23:11,051 - config - INFO - uid generated: 8403bb3b-4fc7-4642-8bfc-10e86a2cd816 + asyncio-intro
+2023-06-14 18:23:11,052 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:23:11,052 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:23:11,053 - config - INFO - uploaded filename: 8403bb3b-4fc7-4642-8bfc-10e86a2cd816-asyncio-intro-20230614182311
+2023-06-14 18:23:11,053 - config - INFO - uploaded filename: 8403bb3b-4fc7-4642-8bfc-10e86a2cd816-asyncio-intro-20230614182311
+2023-06-14 18:23:11,054 - config - INFO - parsing <8403bb3b-4fc7-4642-8bfc-10e86a2cd816-asyncio-intro-20230614182311> pptx file to json
+2023-06-14 18:23:11,054 - config - INFO - parsing <8403bb3b-4fc7-4642-8bfc-10e86a2cd816-asyncio-intro-20230614182311> pptx file to json
+2023-06-14 18:23:11,121 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:23:11,121 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:23:11,123 - config - INFO - File 8403bb3b-4fc7-4642-8bfc-10e86a2cd816-asyncio-intro-20230614182311 uploaded successfully
+2023-06-14 18:23:11,123 - config - INFO - File 8403bb3b-4fc7-4642-8bfc-10e86a2cd816-asyncio-intro-20230614182311 uploaded successfully
+2023-06-14 18:23:11,125 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:23:11] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:23:11,125 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:23:11] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:23:32,919 - config - ERROR - Exception on /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:23:32,919 - config - ERROR - Exception on /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:23:32,923 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:23:32] "[35m[1mGET /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 HTTP/1.1[0m" 500 -
+2023-06-14 18:23:32,923 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:23:32] "[35m[1mGET /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 HTTP/1.1[0m" 500 -
+2023-06-14 18:25:13,846 - config - ERROR - Exception on /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:25:13,846 - config - ERROR - Exception on /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:25:13,853 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:25:13] "[35m[1mGET /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 HTTP/1.1[0m" 500 -
+2023-06-14 18:25:13,853 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:25:13] "[35m[1mGET /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 HTTP/1.1[0m" 500 -
+2023-06-14 18:26:43,142 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:26:43,142 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:26:43,143 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:26:43,143 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:26:49,454 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:26:49,454 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:26:49,455 - config - INFO - uid generated: 6b1bf387-d3e2-4a5a-bbf6-4cae89ffe5fb + asyncio-intro
+2023-06-14 18:26:49,455 - config - INFO - uid generated: 6b1bf387-d3e2-4a5a-bbf6-4cae89ffe5fb + asyncio-intro
+2023-06-14 18:26:49,455 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:26:49,455 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:26:49,455 - config - INFO - uploaded filename: 6b1bf387-d3e2-4a5a-bbf6-4cae89ffe5fb-asyncio-intro-20230614182649
+2023-06-14 18:26:49,455 - config - INFO - uploaded filename: 6b1bf387-d3e2-4a5a-bbf6-4cae89ffe5fb-asyncio-intro-20230614182649
+2023-06-14 18:26:49,456 - config - INFO - parsing <6b1bf387-d3e2-4a5a-bbf6-4cae89ffe5fb-asyncio-intro-20230614182649> pptx file to json
+2023-06-14 18:26:49,456 - config - INFO - parsing <6b1bf387-d3e2-4a5a-bbf6-4cae89ffe5fb-asyncio-intro-20230614182649> pptx file to json
+2023-06-14 18:26:49,501 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 68, in upload_file
+    parse_pptx_to_json(file, filename)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 38, in parse_pptx_to_json
+    pptx_processor.save_parse_content_to_json(upload_file=uploaded_file_path)
+TypeError: PptxProcessor.save_parse_content_to_json() got an unexpected keyword argument 'upload_file'
+2023-06-14 18:26:49,501 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 68, in upload_file
+    parse_pptx_to_json(file, filename)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 38, in parse_pptx_to_json
+    pptx_processor.save_parse_content_to_json(upload_file=uploaded_file_path)
+TypeError: PptxProcessor.save_parse_content_to_json() got an unexpected keyword argument 'upload_file'
+2023-06-14 18:26:49,505 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:26:49] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:26:49,505 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:26:49] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:30:45,418 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:30:45,418 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:30:45,419 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:30:45,419 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:31:00,213 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:31:00,213 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:31:00,213 - config - INFO - uid generated: 8eac4938-bb2a-4c4b-8247-4696899dd2d5 + asyncio-intro
+2023-06-14 18:31:00,213 - config - INFO - uid generated: 8eac4938-bb2a-4c4b-8247-4696899dd2d5 + asyncio-intro
+2023-06-14 18:31:00,214 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:31:00,214 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:31:00,214 - config - INFO - uploaded filename: 8eac4938-bb2a-4c4b-8247-4696899dd2d5-asyncio-intro-20230614183100
+2023-06-14 18:31:00,214 - config - INFO - uploaded filename: 8eac4938-bb2a-4c4b-8247-4696899dd2d5-asyncio-intro-20230614183100
+2023-06-14 18:31:00,214 - config - INFO - parsing <8eac4938-bb2a-4c4b-8247-4696899dd2d5-asyncio-intro-20230614183100> pptx file to json
+2023-06-14 18:31:00,214 - config - INFO - parsing <8eac4938-bb2a-4c4b-8247-4696899dd2d5-asyncio-intro-20230614183100> pptx file to json
+2023-06-14 18:31:00,294 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:31:00,294 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:31:00,296 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 68, in upload_file
+    parse_pptx_to_json(file, filename)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 38, in parse_pptx_to_json
+    pptx_processor.save_parse_content_to_json(upload_file=uploaded_file_path)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\models\pptx_parser.py", line 80, in save_parse_content_to_json
+    self.save_content_to_json_file(self.get_slides(), upload_file)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\models\pptx_parser.py", line 91, in save_content_to_json_file
+    with open(output_folder, 'w') as outfile:
+PermissionError: [Errno 13] Permission denied: 'uploads'
+2023-06-14 18:31:00,296 - config - ERROR - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 68, in upload_file
+    parse_pptx_to_json(file, filename)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 38, in parse_pptx_to_json
+    pptx_processor.save_parse_content_to_json(upload_file=uploaded_file_path)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\models\pptx_parser.py", line 80, in save_parse_content_to_json
+    self.save_content_to_json_file(self.get_slides(), upload_file)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\models\pptx_parser.py", line 91, in save_content_to_json_file
+    with open(output_folder, 'w') as outfile:
+PermissionError: [Errno 13] Permission denied: 'uploads'
+2023-06-14 18:31:00,301 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:31:00] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:31:00,301 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:31:00] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2023-06-14 18:34:11,562 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:34:11,562 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 18:34:11,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:34:11,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 18:34:14,814 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:34:14,814 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:34:14,815 - config - INFO - uid generated: cd459340-a6ec-45d3-a176-559808acb3f7 + asyncio-intro
+2023-06-14 18:34:14,815 - config - INFO - uid generated: cd459340-a6ec-45d3-a176-559808acb3f7 + asyncio-intro
+2023-06-14 18:34:14,815 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:34:14,815 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:34:14,815 - config - INFO - uploaded filename: cd459340-a6ec-45d3-a176-559808acb3f7-asyncio-intro-20230614183414
+2023-06-14 18:34:14,815 - config - INFO - uploaded filename: cd459340-a6ec-45d3-a176-559808acb3f7-asyncio-intro-20230614183414
+2023-06-14 18:34:14,816 - config - INFO - parsing <cd459340-a6ec-45d3-a176-559808acb3f7-asyncio-intro-20230614183414> pptx file to json
+2023-06-14 18:34:14,816 - config - INFO - parsing <cd459340-a6ec-45d3-a176-559808acb3f7-asyncio-intro-20230614183414> pptx file to json
+2023-06-14 18:34:14,859 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:34:14,859 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:34:14,861 - config - INFO - File cd459340-a6ec-45d3-a176-559808acb3f7-asyncio-intro-20230614183414 uploaded successfully
+2023-06-14 18:34:14,861 - config - INFO - File cd459340-a6ec-45d3-a176-559808acb3f7-asyncio-intro-20230614183414 uploaded successfully
+2023-06-14 18:34:14,862 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:34:14] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:34:14,862 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:34:14] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:34:16,897 - config - ERROR - Exception on /status/cd459340-a6ec-45d3-a176-559808acb3f7 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:34:16,897 - config - ERROR - Exception on /status/cd459340-a6ec-45d3-a176-559808acb3f7 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:34:16,901 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:34:16] "[35m[1mGET /status/cd459340-a6ec-45d3-a176-559808acb3f7 HTTP/1.1[0m" 500 -
+2023-06-14 18:34:16,901 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:34:16] "[35m[1mGET /status/cd459340-a6ec-45d3-a176-559808acb3f7 HTTP/1.1[0m" 500 -
+2023-06-14 18:34:39,480 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:34:39,480 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:34:39,481 - config - INFO - uid generated: 1aac5493-6556-440a-8562-16afa5fd0bfe + asyncio-intro
+2023-06-14 18:34:39,481 - config - INFO - uid generated: 1aac5493-6556-440a-8562-16afa5fd0bfe + asyncio-intro
+2023-06-14 18:34:39,481 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:34:39,481 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:34:39,482 - config - INFO - uploaded filename: 1aac5493-6556-440a-8562-16afa5fd0bfe-asyncio-intro-20230614183439
+2023-06-14 18:34:39,482 - config - INFO - uploaded filename: 1aac5493-6556-440a-8562-16afa5fd0bfe-asyncio-intro-20230614183439
+2023-06-14 18:34:39,482 - config - INFO - parsing <1aac5493-6556-440a-8562-16afa5fd0bfe-asyncio-intro-20230614183439> pptx file to json
+2023-06-14 18:34:39,482 - config - INFO - parsing <1aac5493-6556-440a-8562-16afa5fd0bfe-asyncio-intro-20230614183439> pptx file to json
+2023-06-14 18:34:39,523 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:34:39,523 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:34:39,525 - config - INFO - File 1aac5493-6556-440a-8562-16afa5fd0bfe-asyncio-intro-20230614183439 uploaded successfully
+2023-06-14 18:34:39,525 - config - INFO - File 1aac5493-6556-440a-8562-16afa5fd0bfe-asyncio-intro-20230614183439 uploaded successfully
+2023-06-14 18:34:39,526 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:34:39] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:34:39,526 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:34:39] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:34:41,559 - config - ERROR - Exception on /status/1aac5493-6556-440a-8562-16afa5fd0bfe [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:34:41,559 - config - ERROR - Exception on /status/1aac5493-6556-440a-8562-16afa5fd0bfe [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:34:41,561 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:34:41] "[35m[1mGET /status/1aac5493-6556-440a-8562-16afa5fd0bfe HTTP/1.1[0m" 500 -
+2023-06-14 18:34:41,561 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:34:41] "[35m[1mGET /status/1aac5493-6556-440a-8562-16afa5fd0bfe HTTP/1.1[0m" 500 -
+2023-06-14 18:35:15,745 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:35:15] "[33mGET /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 HTTP/1.1[0m" 404 -
+2023-06-14 18:35:15,745 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:35:15] "[33mGET /status/8403bb3b-4fc7-4642-8bfc-10e86a2cd816 HTTP/1.1[0m" 404 -
+2023-06-14 18:39:28,954 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:39:28,954 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:39:28,955 - config - INFO - uid generated: 164dda73-001f-45bb-8dd2-2fc402378599 + asyncio-intro
+2023-06-14 18:39:28,955 - config - INFO - uid generated: 164dda73-001f-45bb-8dd2-2fc402378599 + asyncio-intro
+2023-06-14 18:39:28,955 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:39:28,955 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:39:28,955 - config - INFO - uploaded filename: 164dda73-001f-45bb-8dd2-2fc402378599-asyncio-intro-20230614183928
+2023-06-14 18:39:28,955 - config - INFO - uploaded filename: 164dda73-001f-45bb-8dd2-2fc402378599-asyncio-intro-20230614183928
+2023-06-14 18:39:28,955 - config - INFO - parsing <164dda73-001f-45bb-8dd2-2fc402378599-asyncio-intro-20230614183928> pptx file to json
+2023-06-14 18:39:28,955 - config - INFO - parsing <164dda73-001f-45bb-8dd2-2fc402378599-asyncio-intro-20230614183928> pptx file to json
+2023-06-14 18:39:29,000 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:39:29,000 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:39:29,002 - config - INFO - File 164dda73-001f-45bb-8dd2-2fc402378599-asyncio-intro-20230614183928 uploaded successfully
+2023-06-14 18:39:29,002 - config - INFO - File 164dda73-001f-45bb-8dd2-2fc402378599-asyncio-intro-20230614183928 uploaded successfully
+2023-06-14 18:39:29,003 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:39:29] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:39:29,003 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:39:29] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:39:31,068 - config - ERROR - Exception on /status/164dda73-001f-45bb-8dd2-2fc402378599 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:39:31,068 - config - ERROR - Exception on /status/164dda73-001f-45bb-8dd2-2fc402378599 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:39:31,070 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:39:31] "[35m[1mGET /status/164dda73-001f-45bb-8dd2-2fc402378599 HTTP/1.1[0m" 500 -
+2023-06-14 18:39:31,070 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:39:31] "[35m[1mGET /status/164dda73-001f-45bb-8dd2-2fc402378599 HTTP/1.1[0m" 500 -
+2023-06-14 18:39:40,138 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:39:40,138 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:39:40,138 - config - INFO - uid generated: 13e51c9e-6154-40f6-acd6-c8acc9195a72 + asyncio-intro
+2023-06-14 18:39:40,138 - config - INFO - uid generated: 13e51c9e-6154-40f6-acd6-c8acc9195a72 + asyncio-intro
+2023-06-14 18:39:40,139 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:39:40,139 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:39:40,139 - config - INFO - uploaded filename: 13e51c9e-6154-40f6-acd6-c8acc9195a72-asyncio-intro-20230614183940
+2023-06-14 18:39:40,139 - config - INFO - uploaded filename: 13e51c9e-6154-40f6-acd6-c8acc9195a72-asyncio-intro-20230614183940
+2023-06-14 18:39:40,139 - config - INFO - parsing <13e51c9e-6154-40f6-acd6-c8acc9195a72-asyncio-intro-20230614183940> pptx file to json
+2023-06-14 18:39:40,139 - config - INFO - parsing <13e51c9e-6154-40f6-acd6-c8acc9195a72-asyncio-intro-20230614183940> pptx file to json
+2023-06-14 18:39:40,180 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:39:40,180 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:39:40,182 - config - INFO - File 13e51c9e-6154-40f6-acd6-c8acc9195a72-asyncio-intro-20230614183940 uploaded successfully
+2023-06-14 18:39:40,182 - config - INFO - File 13e51c9e-6154-40f6-acd6-c8acc9195a72-asyncio-intro-20230614183940 uploaded successfully
+2023-06-14 18:39:40,183 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:39:40] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:39:40,183 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:39:40] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:39:42,223 - config - ERROR - Exception on /status/13e51c9e-6154-40f6-acd6-c8acc9195a72 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:39:42,223 - config - ERROR - Exception on /status/13e51c9e-6154-40f6-acd6-c8acc9195a72 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:39:42,224 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:39:42] "[35m[1mGET /status/13e51c9e-6154-40f6-acd6-c8acc9195a72 HTTP/1.1[0m" 500 -
+2023-06-14 18:39:42,224 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:39:42] "[35m[1mGET /status/13e51c9e-6154-40f6-acd6-c8acc9195a72 HTTP/1.1[0m" 500 -
+2023-06-14 18:41:19,615 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:41:19,615 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 18:41:19,616 - config - INFO - uid generated: d0375bfb-fae0-47dd-b783-ec7713152267 + asyncio-intro
+2023-06-14 18:41:19,616 - config - INFO - uid generated: d0375bfb-fae0-47dd-b783-ec7713152267 + asyncio-intro
+2023-06-14 18:41:19,616 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:41:19,616 - config - INFO - generating filename for asyncio-intro
+2023-06-14 18:41:19,616 - config - INFO - uploaded filename: d0375bfb-fae0-47dd-b783-ec7713152267-asyncio-intro-20230614184119
+2023-06-14 18:41:19,616 - config - INFO - uploaded filename: d0375bfb-fae0-47dd-b783-ec7713152267-asyncio-intro-20230614184119
+2023-06-14 18:41:19,616 - config - INFO - parsing <d0375bfb-fae0-47dd-b783-ec7713152267-asyncio-intro-20230614184119> pptx file to json
+2023-06-14 18:41:19,616 - config - INFO - parsing <d0375bfb-fae0-47dd-b783-ec7713152267-asyncio-intro-20230614184119> pptx file to json
+2023-06-14 18:41:19,652 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:41:19,652 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 18:41:19,653 - config - INFO - File d0375bfb-fae0-47dd-b783-ec7713152267-asyncio-intro-20230614184119 uploaded successfully
+2023-06-14 18:41:19,653 - config - INFO - File d0375bfb-fae0-47dd-b783-ec7713152267-asyncio-intro-20230614184119 uploaded successfully
+2023-06-14 18:41:19,654 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:41:19] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:41:19,654 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:41:19] "POST /upload HTTP/1.1" 200 -
+2023-06-14 18:42:17,705 - config - ERROR - Exception on /status/d0375bfb-fae0-47dd-b783-ec7713152267 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:42:17,705 - config - ERROR - Exception on /status/d0375bfb-fae0-47dd-b783-ec7713152267 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:42:17,707 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:42:17] "[35m[1mGET /status/d0375bfb-fae0-47dd-b783-ec7713152267 HTTP/1.1[0m" 500 -
+2023-06-14 18:42:17,707 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:42:17] "[35m[1mGET /status/d0375bfb-fae0-47dd-b783-ec7713152267 HTTP/1.1[0m" 500 -
+2023-06-14 18:43:13,352 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:43:13] "[33mGET /status/'d0375bfb-fae0-47dd-b783-ec7713152267' HTTP/1.1[0m" 404 -
+2023-06-14 18:43:13,352 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:43:13] "[33mGET /status/'d0375bfb-fae0-47dd-b783-ec7713152267' HTTP/1.1[0m" 404 -
+2023-06-14 18:43:19,596 - config - ERROR - Exception on /status/d0375bfb-fae0-47dd-b783-ec7713152267 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:43:19,596 - config - ERROR - Exception on /status/d0375bfb-fae0-47dd-b783-ec7713152267 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\web_app.py", line 94, in check_status
+    return get_status(uid)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\controllers\explainer.py", line 51, in get_status
+    matching_files = [file for file in os.listdir(output_dir) if file.startswith(uid)]
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'outputs'
+2023-06-14 18:43:19,597 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:43:19] "[35m[1mGET /status/d0375bfb-fae0-47dd-b783-ec7713152267 HTTP/1.1[0m" 500 -
+2023-06-14 18:43:19,597 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 18:43:19] "[35m[1mGET /status/d0375bfb-fae0-47dd-b783-ec7713152267 HTTP/1.1[0m" 500 -
+2023-06-14 19:45:45,268 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 19:45:45,268 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 19:45:45,268 - config - INFO - uid generated: 317adc19-6ec7-446f-96c2-ede7fa91cfc0 + asyncio-intro
+2023-06-14 19:45:45,268 - config - INFO - uid generated: 317adc19-6ec7-446f-96c2-ede7fa91cfc0 + asyncio-intro
+2023-06-14 19:45:45,268 - config - INFO - generating filename for asyncio-intro
+2023-06-14 19:45:45,268 - config - INFO - generating filename for asyncio-intro
+2023-06-14 19:45:45,269 - config - INFO - uploaded filename: 317adc19-6ec7-446f-96c2-ede7fa91cfc0-asyncio-intro-20230614194545
+2023-06-14 19:45:45,269 - config - INFO - uploaded filename: 317adc19-6ec7-446f-96c2-ede7fa91cfc0-asyncio-intro-20230614194545
+2023-06-14 19:45:45,269 - config - INFO - parsing <317adc19-6ec7-446f-96c2-ede7fa91cfc0-asyncio-intro-20230614194545> pptx file to json
+2023-06-14 19:45:45,269 - config - INFO - parsing <317adc19-6ec7-446f-96c2-ede7fa91cfc0-asyncio-intro-20230614194545> pptx file to json
+2023-06-14 19:45:45,301 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 19:45:45,301 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 19:45:45,303 - config - INFO - File 317adc19-6ec7-446f-96c2-ede7fa91cfc0-asyncio-intro-20230614194545 uploaded successfully
+2023-06-14 19:45:45,303 - config - INFO - File 317adc19-6ec7-446f-96c2-ede7fa91cfc0-asyncio-intro-20230614194545 uploaded successfully
+2023-06-14 19:45:45,304 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:45:45] "POST /upload HTTP/1.1" 200 -
+2023-06-14 19:45:45,304 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:45:45] "POST /upload HTTP/1.1" 200 -
+2023-06-14 19:45:56,921 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 19:45:56,921 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 19:45:56,921 - config - INFO - uid generated: cf3d4503-24f9-4094-a766-55e7a17dd8a8 + asyncio-intro
+2023-06-14 19:45:56,921 - config - INFO - uid generated: cf3d4503-24f9-4094-a766-55e7a17dd8a8 + asyncio-intro
+2023-06-14 19:45:56,922 - config - INFO - generating filename for asyncio-intro
+2023-06-14 19:45:56,922 - config - INFO - generating filename for asyncio-intro
+2023-06-14 19:45:56,922 - config - INFO - uploaded filename: cf3d4503-24f9-4094-a766-55e7a17dd8a8-asyncio-intro-20230614194556
+2023-06-14 19:45:56,922 - config - INFO - uploaded filename: cf3d4503-24f9-4094-a766-55e7a17dd8a8-asyncio-intro-20230614194556
+2023-06-14 19:45:56,922 - config - INFO - parsing <cf3d4503-24f9-4094-a766-55e7a17dd8a8-asyncio-intro-20230614194556> pptx file to json
+2023-06-14 19:45:56,922 - config - INFO - parsing <cf3d4503-24f9-4094-a766-55e7a17dd8a8-asyncio-intro-20230614194556> pptx file to json
+2023-06-14 19:45:56,967 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 19:45:56,967 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 19:45:56,970 - config - INFO - File cf3d4503-24f9-4094-a766-55e7a17dd8a8-asyncio-intro-20230614194556 uploaded successfully
+2023-06-14 19:45:56,970 - config - INFO - File cf3d4503-24f9-4094-a766-55e7a17dd8a8-asyncio-intro-20230614194556 uploaded successfully
+2023-06-14 19:45:56,971 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:45:56] "POST /upload HTTP/1.1" 200 -
+2023-06-14 19:45:56,971 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:45:56] "POST /upload HTTP/1.1" 200 -
+2023-06-14 19:48:08,537 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 19:48:08,537 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 19:48:08,537 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 19:48:08,537 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 19:48:17,001 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 19:48:17,001 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-06-14 19:48:17,002 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 19:48:17,002 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-06-14 19:48:20,699 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 19:48:20,699 - config - INFO - generating uid for file asyncio-intro.pptx
+2023-06-14 19:48:20,700 - config - INFO - uid generated: 5fffd1f9-17db-43d9-b65e-a62412c7bde9 + asyncio-intro
+2023-06-14 19:48:20,700 - config - INFO - uid generated: 5fffd1f9-17db-43d9-b65e-a62412c7bde9 + asyncio-intro
+2023-06-14 19:48:20,700 - config - INFO - generating filename for asyncio-intro
+2023-06-14 19:48:20,700 - config - INFO - generating filename for asyncio-intro
+2023-06-14 19:48:20,701 - config - INFO - uploaded filename: 5fffd1f9-17db-43d9-b65e-a62412c7bde9-asyncio-intro-20230614194820
+2023-06-14 19:48:20,701 - config - INFO - uploaded filename: 5fffd1f9-17db-43d9-b65e-a62412c7bde9-asyncio-intro-20230614194820
+2023-06-14 19:48:20,701 - config - INFO - parsing <5fffd1f9-17db-43d9-b65e-a62412c7bde9-asyncio-intro-20230614194820> pptx file to json
+2023-06-14 19:48:20,701 - config - INFO - parsing <5fffd1f9-17db-43d9-b65e-a62412c7bde9-asyncio-intro-20230614194820> pptx file to json
+2023-06-14 19:48:30,005 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 19:48:30,005 - config - INFO - data as json: {1: 'AsyincIO .Relatively new in python .existed or is being built into other languages and runtime environments, such as Go, C#, or Scala. .Not  .threading .Not  .multiproccesing  .cooperative multitasking .', 2: 'AsyincIO2 .', 3: 'Differences between threading and asynchronous I/O .T .hreads share data and resources -  .A .synchronous I/O operations do not.  .Threads can be more efficient than asynchronous I/O operations when the tasks that are being executed share data or resources.  .A .synchronous I/O operations can be more efficient than threads when the tasks that are being executed do not share data or resources. .Threading enables concurrency within a process and  .asyincIO . enables concurrency inside a single thread only when it uses IO operations .“Use async IO when you can; use threading when you must” .'}
+2023-06-14 19:48:30,011 - config - INFO - File 5fffd1f9-17db-43d9-b65e-a62412c7bde9-asyncio-intro-20230614194820 uploaded successfully
+2023-06-14 19:48:30,011 - config - INFO - File 5fffd1f9-17db-43d9-b65e-a62412c7bde9-asyncio-intro-20230614194820 uploaded successfully
+2023-06-14 19:48:30,014 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:48:30] "POST /upload HTTP/1.1" 200 -
+2023-06-14 19:48:30,014 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:48:30] "POST /upload HTTP/1.1" 200 -
+2023-06-14 19:48:32,049 - config - ERROR - Exception on /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: check_status() got an unexpected keyword argument 'uid'
+2023-06-14 19:48:32,049 - config - ERROR - Exception on /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: check_status() got an unexpected keyword argument 'uid'
+2023-06-14 19:48:32,060 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:48:32] "[35m[1mGET /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 HTTP/1.1[0m" 500 -
+2023-06-14 19:48:32,060 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:48:32] "[35m[1mGET /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 HTTP/1.1[0m" 500 -
+2023-06-14 19:49:12,868 - config - ERROR - Exception on /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: check_status() got an unexpected keyword argument 'uid'
+2023-06-14 19:49:12,868 - config - ERROR - Exception on /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: check_status() got an unexpected keyword argument 'uid'
+2023-06-14 19:49:12,873 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:49:12] "[35m[1mGET /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 HTTP/1.1[0m" 500 -
+2023-06-14 19:49:12,873 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:49:12] "[35m[1mGET /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 HTTP/1.1[0m" 500 -
+2023-06-14 19:49:26,931 - config - ERROR - Exception on /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: check_status() got an unexpected keyword argument 'uid'
+2023-06-14 19:49:26,931 - config - ERROR - Exception on /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 [GET]
+Traceback (most recent call last):
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\olaib\PycharmProjects\final-projtct-gpt\venv\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+TypeError: check_status() got an unexpected keyword argument 'uid'
+2023-06-14 19:49:26,934 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:49:26] "[35m[1mGET /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 HTTP/1.1[0m" 500 -
+2023-06-14 19:49:26,934 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2023 19:49:26] "[35m[1mGET /status/5fffd1f9-17db-43d9-b65e-a62412c7bde9 HTTP/1.1[0m" 500 -
