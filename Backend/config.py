@@ -21,7 +21,11 @@ UPLOAD_FOLDER = 'uploads'
 OUTPUT_FOLDER = 'outputs'
 UNSELECTED_FILE = 'No file selected'
 FILE_NOT_SUPPORTED = 'Only pptx files are supported'
-
+NOT_FOUND = 'Not found'
+ERROR_OCCURRED = 'An error occurred while processing the presentation:'
+SEPERATOR = '/'
+JSON_FILE_EXTENSION = '.json'
+EXPLAINER_INTERVAL = 10
 # OpenAI Configuration
 OPEN_AI_MODEL = os.environ.get('OPEN_AI_MODEL')
 OPEN_AI_API_KEY = os.environ.get('OPEN_AI_API_KEY')

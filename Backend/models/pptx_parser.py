@@ -3,7 +3,7 @@ import os
 from flask import json
 from pptx import Presentation
 
-from config import app_log as logger
+from config import app_log as logger,JSON_FILE_EXTENSION
 
 
 def save_content_to_json_file(contents, output_folder, file_name: str) -> None:
@@ -13,7 +13,7 @@ def save_content_to_json_file(contents, output_folder, file_name: str) -> None:
         data[slide_number] = content
     logger.info(f"data as json: {data}")
     # Save as json file into output folder
-    filename = file_name + ".json"
+    filename = file_name + JSON_FILE_EXTENSION
     with open(os.path.join(output_folder, filename), 'w') as outfile:
         json.dump(data, outfile)
 
@@ -22,7 +22,7 @@ class PptxProcessor:
     """Parser class for extracting text from PowerPoint(pptx) slides."""
 
     # # get file as pptx and filename as str
-    # def __init__(self, file, file_name: str):
+    # def __init__.py(self, file, file_name: str):
     #     self.file = file
     #     self.file_name = file_name
     #     self.slides = self.extract_text_from_presentation()

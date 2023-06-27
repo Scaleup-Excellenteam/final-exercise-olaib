@@ -6,7 +6,7 @@ import asyncio
 from typing import IO
 from functools import wraps
 from .pptx_parser import save_content_to_json_file
-from config import explainer_log as log, OPEN_AI_MODEL, ROLE, \
+from config import explainer_log as log, OPEN_AI_MODEL, ROLE, JSON_FILE_EXTENSION, \
     GENERATION_TIMEOUT, RATE_LIMIT_SECONDS, WAIT_TIME, RATE_LIMIT_MSG, ERROR_OCCURRED_MESSAGE, app
 
 
@@ -62,14 +62,17 @@ async def generate_slide_explanation_from_openai(slide_number: int, prompt: str)
 
     response = openai.ChatCompletion.create(
         model=OPEN_AI_MODEL,
-        messages=[{"role": ROLE, "content": prompt}],
+        # make it more good at explaining
+        messages=[{"role": ROLE,
+                   "content": f"I need an explanation based on a slide presentation. Here are the key points of the presentation - \
+                   slide number: {str(slide_number)}, slide text: " + prompt}],
     )
     explanation = response.choices[0].message.content
     log.info(f"Got response from OpenAI: {explanation}")
     return explanation
 
 
-def extract_explanations(slides_explanation: list, res: tuple) -> None:
+def extract_explanations(slides_explanation: list, res: tuple|list) -> None:
     for slide_number, api_slide_explanation in enumerate(res, start=1):
         if api_slide_explanation == "":
             log.info(f"Skipping slide {slide_number} because it's empty")
@@ -79,7 +82,7 @@ def extract_explanations(slides_explanation: list, res: tuple) -> None:
             log.info(f"Slide {slide_number} explanation: {api_slide_explanation}")
 
 
-async def get_pptx_slides_explanations(file: IO, slides: list) -> list:
+async def get_pptx_slides_explanations(file: IO, slides: list | tuple) -> list:
     """Generates explanations for all slides in a presentation.
     :param slides: a list of dictionaries containing the slide number and its text.
     :param file: json file
@@ -93,7 +96,8 @@ async def get_pptx_slides_explanations(file: IO, slides: list) -> list:
         if slide_text == "":
             log.info(f"Skipping slide {slide_number} because it's empty")
             continue
-        task = asyncio.create_task(generate_slide_explanation_from_openai(slide_number, slide_text))
+        task = asyncio.create_task(
+            generate_slide_explanation_from_openai(slide_number=slide_number, prompt=slide_text))
         tasks.append(task)
         await asyncio.sleep(RATE_LIMIT_SECONDS)
 
