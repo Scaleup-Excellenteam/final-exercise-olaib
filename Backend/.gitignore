@@ -1,0 +1,12 @@
+# ignore all .env files and venv folder
+.env*
+venv/*
+
+# ignore all .idea files
+.idea*
+
+# ignore all /logs files and /upload folder and /output folder
+logs/*
+uploads/*
+outputs/*
+

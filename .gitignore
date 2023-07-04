@@ -1,0 +1,7 @@
+# ignore all .env files and venv folder
+.env*
+venv/*
+
+# ignore all .idea files
+.idea*
+
